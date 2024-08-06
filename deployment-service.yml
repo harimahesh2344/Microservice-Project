@@ -29,7 +29,7 @@ spec:
           privileged: false
           readOnlyRootFilesystem: true
         image: naveensilver/emailservice:latest
-        ports:+
+        ports:
         - containerPort: 8080
         env:
         - name: PORT
